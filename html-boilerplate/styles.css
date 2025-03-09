@@ -6,24 +6,31 @@ header > img {
     height: 100px;
     border-radius: 5%;
 }
-nav ul {
+.navbar {
     list-style: none;
     margin: 0;
     padding: 0;
+    border-radius: 0px;
     text-align: center;
 }
 nav li {
     display: inline-block;
-    padding-left: 7%;
-    padding-right: 7%;
-    padding-top: 2%;
-    padding-bottom: 2%; 
+    text-align: center;
+    margin: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 15px;
     color: #3b110b; 
 }
-ul:hover {
-    color: black;
+
+nav li:hover {
+    color: whitesmoke;
     cursor: pointer;
+    text-decoration: none;
 }
+
 body {
     background-color: #ff8b78;
     font-family: 'Courier', Courier, monospace;
@@ -111,8 +118,17 @@ table {
     margin-right: auto;
 }
 
-.coupon {
-    background-color: #e07060;
+#button {
+    background-color: #ff7866;
+    width: 100%;
+    height: auto;
+    border: 1px solid;
+    border-color: whitesmoke;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: #d08405;
 }
 
 .descriptors {

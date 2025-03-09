@@ -1,3 +1,7 @@
 # Home Page for Hair Day Salon 
 
-This is a project for my front end development certificate created with the purpose of showcasing developer skills attained after four months of learning.
+Final Project for HTML/CSS in depth.
+
+Hair Day Salon is a fictional business.
+
+All information provided is for the purposes of showcasing skill aquisition. 
