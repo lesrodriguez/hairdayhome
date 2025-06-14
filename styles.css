@@ -7,14 +7,12 @@ header > img {
     border-radius: 5%;
 }
 .navbar {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    border-radius: 0px;
-    text-align: center;
+    background-color: #ff7866;
+    color: whitesmoke;
+    overflow: hidden;
 }
-nav li {
-    display: inline-block;
+.navbar a {
+    float: left;
     text-align: center;
     margin: 5px;
     padding-left: 50px;
@@ -22,13 +20,18 @@ nav li {
     padding-top: 7px;
     padding-bottom: 7px;
     border-radius: 15px;
+    text-decoration: none;
     color: #3b110b; 
 }
 
-nav li:hover {
-    color: whitesmoke;
-    cursor: pointer;
-    text-decoration: none;
+.navbar:hover {
+    background-color: #ff7866;
+    color: black;
+}
+
+.navbar:active {
+    background-color: #ff8b78;
+    color: blueviolet;
 }
 
 body {
@@ -118,7 +121,7 @@ table {
     margin-right: auto;
 }
 
-#button {
+.button {
     background-color: #ff7866;
     width: 100%;
     height: auto;
@@ -127,7 +130,7 @@ table {
     cursor: pointer;
 }
 
-#button:hover {
+.button:hover {
     background-color: #d08405;
 }
 
