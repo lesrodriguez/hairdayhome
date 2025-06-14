@@ -12,14 +12,11 @@ header > img {
     overflow: hidden;
 }
 .navbar a {
-    float: left;
     text-align: center;
+    display: inline-block;
     margin: 5px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    border-radius: 15px;
+    padding: 10px 15px 15px 10px;
+    font-size: 17px;
     text-decoration: none;
     color: #3b110b; 
 }
